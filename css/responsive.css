@@ -1,0 +1,140 @@
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+    .section-wrapper {
+        padding: 2rem 1rem;
+    }
+
+    .section-wrapper .icon-pattern i {
+        font-size: 35px;
+    }
+
+    .section-wrapper .icon-pattern p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .section-wrapper .patten-text {
+        flex-direction: column; /* Stack items vertically */
+    }
+
+    .section-wrapper {
+        padding: 1.5rem 1rem;
+    }
+
+    .section-wrapper .icon-pattern i {
+        font-size: 30px;
+    }
+
+    .section-wrapper .icon-pattern p {
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    /* Hide the menu initially */
+    nav .ul-reset {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background: white;
+    }
+
+    /* Show the menu when toggled */
+    nav .ul-reset.active {
+        display: flex;
+    }
+
+    /* Toggle Button Visible */
+    .nav-toggle {
+        display: block;
+    }
+
+    /* Center align logo */
+    nav .logo {
+        margin: 0 auto;
+    }
+
+    /* Adjust dropdowns */
+    .mega-menu {
+        position: relative;
+        top: 0;
+        width: 100%;
+    }
+    nav li {
+        margin: 0px 10px;
+        display: flex;
+
+        align-items: center;
+    }
+/* Reset fixed width for smaller screens */
+
+    .product-grid .product-block {
+        width: 100%; /* Ensures full width for col-12 */
+        padding: 0.5rem; /* Adjust spacing */
+    }
+    .product-grid {
+        justify-content: center; /* Center-align products on small screens */
+    }
+}
+
+/* Adjust image and text for better visibility */
+.product-grid .img-block img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-grid .product-block .info {
+    padding: 1rem;
+
+
+
+
+}
+
+
+@media (max-width: 576px) {
+    .section-wrapper {
+        padding: 1rem;
+    }
+
+    .section-wrapper .icon-pattern i {
+        font-size: 25px;
+    }
+
+    .section-wrapper .icon-pattern p {
+        font-size: 13px;
+    }
+
+
+        .icon-item {
+            flex: 0 0 48%; /* Ensures two items fit per row with some gap */
+            max-width: 48%;
+        }
+
+}
+
+
+
+
+@media (max-width: 480px) {
+    nav {
+        padding: 10px;
+    }
+
+    .nav-toggle .line {
+        width: 20px;
+    }
+
+    .mega-menu {
+        padding: 10px;
+    }
+
+    .product-card h3 {
+        font-size: 14px;
+    }
+}
